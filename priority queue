@@ -44,13 +44,6 @@ int dequeue()
 {
     int index = getHigherPriorityElement();
     int data = pq[index].element;
-    // for(int i=index; i<rear;i++){
-    //     pq[i]=pq[i+1];
-    // }
-    // rear--;
-    // if (rear < front)
-    //     front = rear = -1;
-    // return data;
     if (index == front && index == rear)
         front = rear = -1;
     else if (index == front)
