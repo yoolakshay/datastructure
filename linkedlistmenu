@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct node 
+{ 
+    int data;
+    struct node *next;
+    }node;
+    int main(){
+        while(1){
+            printf("______ singly linked list ______\n");
+            printf("1. Insert node at the beginning\n");
+            printf("2. Insert node at the end\n");
+            printf("3. Insert node at any position\n");
+            printf("4. delete node from beginning\n");
+            printf("5. delete node from end\n");
+            printf("6. delete node from any position\n");
+            printf("7. search element in list\n");
+            printf("8. sort elements\n");
+            printf("9.display list\n");
+            printf("10.exit\n");
+            int choice;
+            printf("enter choice : ");
+            scanf("%d",&choice);
+            switch(choice){
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+                case 8:
+                    break;
+                case 9:
+                    break;
+                case 10:
+                    exit(0);
+                default:
+                printf("invalid choice\n");
+                
+            }
+
+        }
+    }
